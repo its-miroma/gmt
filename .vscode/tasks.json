@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Package to `.vsix`",
+            "detail": "Depends on the `vsce` tool.",
+            "icon": {
+                "id": "extensions"
+            },
+            "type": "shell",
+            "command": "vsce package",
+            "presentation": {
+                "panel": "dedicated",
+                "showReuseMessage": false
+            },
+            "problemMatcher": []
+        }
+    ]
+}

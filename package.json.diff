@@ -1,0 +1,64 @@
+diff --git a/package.json b/package.json
+index 46bab99..1cf2cf9 100644
+--- a/package.json
++++ b/package.json
+@@ -1,27 +1,53 @@
+ {
+   "name": "monospace-theme",
+-  "displayName": "Monospace Theme",
+-  "description": "Monospace theme for VS Code",
++  "displayName": "Monospace by Google IDX (unofficial)",
++  "description": "Monospace Color Theme and File Icon Theme by Google IDX (unofficial)",
+   "version": "0.1.3",
+-  "license": "Apache-2.0",
++  "license": "SEE LICENSE IN LICENSE",
++  "icon": "./icon.png",
+   "engines": {
+     "vscode": "^1.43.0"
+   },
+   "author": {
+     "name": "Google LLC"
+   },
+-  "repository": {},
++  "homepage": "https://github.com/its-miroma/gmt/",
++  "publisher": "Miroma",
++  "repository": {
++    "type": "git",
++    "url": "https://github.com/its-miroma/gmt.git"
++  },
++  "bugs": {
++    "url": "https://github.com/its-miroma/gmt/issues/"
++  },
++  "categories": [
++    "Themes"
++  ],
++  "keywords": [
++    "Google",
++    "IDX",
++    "Material"
++  ],
+   "contributes": {
+     "themes": [
+       {
++        "id": "monospace-light",
+         "label": "Monospace Light",
+         "uiTheme": "vs",
+-        "path": "monospace-light.json"
++        "path": "./themes/monospace-light-color-theme.json"
+       },
+       {
++        "id": "monospace-dark",
+         "label": "Monospace Dark",
+         "uiTheme": "vs-dark",
+-        "path": "monospace-dark.json"
++        "path": "./themes/monospace-dark-color-theme.json"
++      }
++    ],
++    "iconThemes": [
++      {
++        "id": "monospace-icons",
++        "label": "Monospace",
++        "path": "./icons/monospace-icon-theme.json"
+       }
+     ]
+   }
