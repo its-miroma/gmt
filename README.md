@@ -6,6 +6,9 @@
 
 This is an unofficial redistribution. All rights and credits belong to Google.
 
+> [!IMPORTANT]
+> See the [Changelog] for changes to the original extension(s).
+
 ## Installation
 
 1. Download the latest VSIX file from [Releases]
