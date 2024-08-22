@@ -1,8 +1,8 @@
 {
   "name": "monospace-theme",
   "displayName": "Monospace by Google IDX (unofficial)",
-  "description": "Monospace Color Theme and File Icon Theme by Google IDX (unofficial)",
-  "version": "0.1.3",
+  "description": "Monospace Color Theme and File Icon Theme by Google IDX (Unofficial Redistribution)",
+  "version": "0.2.0",
   "license": "SEE LICENSE IN LICENSE",
   "icon": "./icon.png",
   "engines": {

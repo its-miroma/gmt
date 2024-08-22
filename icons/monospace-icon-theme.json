@@ -1389,6 +1389,12 @@
     "monospace": {
       "iconPath": "monospace.svg"
     },
+    "ai-exclude_light": {
+      "iconPath": "ai-exclude_light.svg"
+    },
+    "ai-exclude": {
+      "iconPath": "ai-exclude.svg"
+    },
     "folder_light": {
       "iconPath": "folder_light.svg"
     },
@@ -1526,6 +1532,18 @@
     },
     "folder_firebase": {
       "iconPath": "folder_firebase.svg"
+    },
+    "folder_angular_light": {
+      "iconPath": "folder_angular_light.svg"
+    },
+    "folder_angular": {
+      "iconPath": "folder_angular.svg"
+    },
+    "folder_dart_light": {
+      "iconPath": "folder_dart_light.svg"
+    },
+    "folder_dart": {
+      "iconPath": "folder_dart.svg"
     },
     "folder_venv_light": {
       "iconPath": "folder_venv_light.svg"
@@ -1667,6 +1685,7 @@
       "deno.json": "deno_light",
       "deno.jsonc": "deno_light",
       "deno.lock": "deno_light",
+      ".aiexclude": "ai-exclude_light",
       ".pug-lintrc": "pug",
       ".pug-lintrc.js": "pug",
       ".pug-lintrc.json": "pug",
@@ -3581,6 +3600,8 @@
       "spec": "folder_test_light",
       "specs": "folder_test_light",
       ".firebase": "folder_firebase_light",
+      ".angular": "folder_angular_light",
+      ".dart_tool": "folder_dart_light",
       ".venv": "folder_venv_light",
       "_post": "folder_docs_light",
       "_posts": "folder_docs_light",
@@ -4602,7 +4623,8 @@
     "deno.jsonc": "deno",
     "deno.lock": "deno",
     "monospace.json": "monospace",
-    ".idx/dev.nix": "monospace"
+    ".idx/dev.nix": "monospace",
+    ".aiexclude": "ai-exclude"
   },
   "fileExtensions": {
     "htm": "html",
@@ -5632,6 +5654,8 @@
     "spec": "folder_test",
     "specs": "folder_test",
     ".firebase": "folder_firebase",
+    ".angular": "folder_angular",
+    ".dart_tool": "folder_dart",
     ".venv": "folder_venv",
     "_post": "folder_docs",
     "_posts": "folder_docs",
