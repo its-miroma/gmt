@@ -2,7 +2,7 @@
   "name": "monospace-theme",
   "displayName": "Monospace by Google IDX (unofficial)",
   "description": "Monospace Color Theme and File Icon Theme by Google IDX (Unofficial Redistribution)",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "license": "SEE LICENSE IN LICENSE",
   "icon": "./icon.png",
   "engines": {
@@ -11,14 +11,14 @@
   "author": {
     "name": "Google LLC"
   },
-  "homepage": "https://github.com/its-miroma/gmt/",
+  "homepage": "https://github.com/its-miroma/gmt",
   "publisher": "Miroma",
   "repository": {
     "type": "git",
     "url": "https://github.com/its-miroma/gmt.git"
   },
   "bugs": {
-    "url": "https://github.com/its-miroma/gmt/issues/"
+    "url": "https://github.com/its-miroma/gmt/issues"
   },
   "categories": [
     "Themes"

@@ -258,11 +258,7 @@
   },
   "tokenColors": [
     {
-      "scope": [
-        "comment",
-        "punctuation.definition.comment",
-        "string.comment"
-      ],
+      "scope": ["comment", "punctuation.definition.comment", "string.comment"],
       "settings": {
         "foreground": "#637083ff"
       }
@@ -279,10 +275,7 @@
       }
     },
     {
-      "scope": [
-        "entity",
-        "entity.name"
-      ],
+      "scope": ["entity", "entity.name"],
       "settings": {
         "foreground": "#6f4cdeff"
       }
@@ -306,18 +299,13 @@
       }
     },
     {
-      "scope": [
-        "storage",
-        "storage.type"
-      ],
+      "scope": ["storage", "storage.type"],
       "settings": {
         "foreground": "#c43058ff"
       }
     },
     {
-      "scope": [
-        "annotation"
-      ],
+      "scope": ["annotation"],
       "settings": {
         "foreground": "#c43058ff"
       }
@@ -367,10 +355,7 @@
       }
     },
     {
-      "scope": [
-        "support.type.property-name",
-        "entity.name.tag.yaml"
-      ],
+      "scope": ["support.type.property-name", "entity.name.tag.yaml"],
       "settings": {
         "foreground": "#0075a2ff"
       }
@@ -449,10 +434,7 @@
       }
     },
     {
-      "scope": [
-        "source.regexp",
-        "string.regexp"
-      ],
+      "scope": ["source.regexp", "string.regexp"],
       "settings": {
         "foreground": "#007b49ff"
       }
@@ -500,10 +482,7 @@
       }
     },
     {
-      "scope": [
-        "markup.heading",
-        "markup.heading entity.name"
-      ],
+      "scope": ["markup.heading", "markup.heading entity.name"],
       "settings": {
         "fontStyle": "bold",
         "foreground": "#264dcbff"
@@ -558,20 +537,14 @@
       }
     },
     {
-      "scope": [
-        "markup.changed",
-        "punctuation.definition.changed"
-      ],
+      "scope": ["markup.changed", "punctuation.definition.changed"],
       "settings": {
         "background": "#fff0caff",
         "foreground": "#d07826ff"
       }
     },
     {
-      "scope": [
-        "markup.ignored",
-        "markup.untracked"
-      ],
+      "scope": ["markup.ignored", "markup.untracked"],
       "settings": {
         "foreground": "#f4f7fdff",
         "background": "#264dcbff"
@@ -623,10 +596,7 @@
       }
     },
     {
-      "scope": [
-        "constant.other.reference.link",
-        "string.other.link"
-      ],
+      "scope": ["constant.other.reference.link", "string.other.link"],
       "settings": {
         "foreground": "#007b49ff",
         "fontStyle": "underline"
