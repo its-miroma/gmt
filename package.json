@@ -2,7 +2,7 @@
   "name": "monospace-theme",
   "displayName": "Monospace by Google IDX (unofficial)",
   "description": "Monospace Color Theme and File Icon Theme by Google IDX (Unofficial Redistribution)",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "license": "SEE LICENSE IN LICENSE",
   "icon": "./icon.png",
   "engines": {
@@ -30,6 +30,18 @@
   ],
   "contributes": {
     "themes": [
+      {
+        "id": "duospace-light",
+        "label": "Duospace Light",
+        "uiTheme": "vs",
+        "path": "./themes/duospace-light-color-theme.json"
+      },
+      {
+        "id": "duospace-dark",
+        "label": "Duospace Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/duospace-dark-color-theme.json"
+      },
       {
         "id": "monospace-light",
         "label": "Monospace Light",

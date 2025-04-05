@@ -8,11 +8,11 @@ This is an unofficial redistribution. All rights and credits belong to Google.
 
 ## Changes
 
-Version `0.2.1` of this redistribution repackages the following extensions:
+Version `0.3.0` of this redistribution repackages the following extensions:
 
 | Original Extension          | Version |
 | --------------------------- | ------- |
-| `monospace-theme`           | `0.1.5` |
+| `monospace-theme`           | `0.2.0` |
 | `monospace-file-icon-theme` | `0.1.7` |
 
 See the [Changelog] for a list of differences compared to the original extensions.
